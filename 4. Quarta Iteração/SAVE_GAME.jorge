@@ -1,0 +1,179 @@
+MrLifschitz
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: true
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+	  -> Kitchen R
+	  -> MrGattass P
+	  -> MrEndler P
+	  -> Lounge R
+	  -> MrSeibel P
+#
+	PositionX: 195
+
+	PositionY: 181
+
+	PositionLine: 6
+
+	PositionColunm: 6
+
+
+
+MrMathias
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+	  -> Spanner W
+	  -> Hall R
+	  -> Candlestick W
+	  -> Dagger W
+	  -> DiningRoom R
+#
+	PositionX: 445
+
+	PositionY: 156
+
+	PositionLine: 5
+
+	PositionColunm: 16
+
+
+
+MrEndler
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: true
+	TurnToMove: true
+	DiceRoll: 4
+	TurnToThrow: false
+	TurnToGuess: true
+	IsInRoom: true
+
+	Annotations:
+#
+	Cards:
+	  -> Library R
+	  -> MrLifschitz P
+	  -> Conservatory R
+	  -> BilliardRoom R
+#
+	PositionX: 562
+
+	PositionY: 113
+
+	PositionLine: 3
+
+	PositionColunm: 20
+
+
+
+MrGattass
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+	  -> Study R
+	  -> LeadPipe W
+	  -> MrsRodriguez P
+	  -> Rope W
+#
+	PositionX: 520
+
+	PositionY: 506
+
+	PositionLine: 19
+
+	PositionColunm: 19
+
+
+
+MrSeibel
+	Eliminated: false
+	IsSelected: false
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+#
+	PositionX: 219
+
+	PositionY: 636
+
+	PositionLine: 24
+
+	PositionColunm: 7
+
+
+
+MrsRodriguez
+	Eliminated: false
+	IsSelected: false
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+#
+	PositionX: 42
+
+	PositionY: 456
+
+	PositionLine: 17
+
+	PositionColunm: 0
+
+
+
+///////////////////////////////////////////////////////
+
+SecretEnvelope: Ballroom R Revolver W MrMathias P
+
+Weapons inside Conservatory = Candlestick #
+
+Weapons inside Kitchen = Dagger #
+
+Weapons inside Study = LeadPipe #
+
+Weapons inside Ballroom = Revolver #
+
+Weapons inside Library = Rope #
+
+Weapons inside Hall = Spanner #
+
+Weapons inside Lounge = #
+
+Weapons inside DiningRoom = #
+
+Weapons inside BilliardRoom = #
+

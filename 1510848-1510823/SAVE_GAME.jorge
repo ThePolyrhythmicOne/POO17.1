@@ -1,0 +1,186 @@
+MrLifschitz
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+	  -> Palpite realizado: Revolver - falso
+	  -> Palpite realizado: BilliardRoom - falso
+#
+	Cards:
+	  -> Study R
+	  -> Ballroom R
+	  -> Dagger W
+#
+	PositionX: 270
+
+	PositionY: 256
+
+	PositionLine: 9
+
+	PositionColunm: 9
+
+
+
+MrMathias
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+	  -> MrMathias P
+	  -> Spanner W
+	  -> MrSeibel P
+#
+	PositionX: 470
+
+	PositionY: 255
+
+	PositionLine: 8
+
+	PositionColunm: 17
+
+
+
+MrEndler
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+	  -> Palpite realizado: Study - falso
+#
+	Cards:
+	  -> Conservatory R
+	  -> Revolver W
+	  -> MrGattass P
+#
+	PositionX: 445
+
+	PositionY: 231
+
+	PositionLine: 8
+
+	PositionColunm: 16
+
+
+
+MrGattass
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: true
+	TurnToMove: true
+	DiceRoll: 0
+	TurnToThrow: true
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+#
+	Cards:
+	  -> LeadPipe W
+	  -> Kitchen R
+	  -> Hall R
+#
+	PositionX: 420
+
+	PositionY: 331
+
+	PositionLine: 12
+
+	PositionColunm: 15
+
+
+
+MrSeibel
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+	  -> Palpite realizado: MrMathias - falso
+	  -> Palpite realizado: Rope - falso
+#
+	Cards:
+	  -> Lounge R
+	  -> MrEndler P
+	  -> BilliardRoom R
+#
+	PositionX: 345
+
+	PositionY: 455
+
+	PositionLine: 17
+
+	PositionColunm: 12
+
+
+
+MrsRodriguez
+	Eliminated: false
+	IsSelected: true
+	PlayerTurn: false
+	TurnToMove: false
+	TurnToThrow: false
+	TurnToGuess: false
+	IsInRoom: false
+
+	Annotations:
+	  -> Palpite realizado: MrMathias - falso
+	  -> Palpite realizado: Revolver - falso
+#
+	Cards:
+	  -> MrsRodriguez P
+	  -> DiningRoom R
+	  -> Rope W
+#
+	PositionX: 220
+
+	PositionY: 431
+
+	PositionLine: 16
+
+	PositionColunm: 7
+
+
+
+///////////////////////////////////////////////////////
+
+SecretEnvelope: Library R Candlestick W MrLifschitz P
+
+Weapons inside Lounge = Candlestick #
+
+Weapons inside Library = #
+
+Weapons inside Ballroom = LeadPipe #
+
+Weapons inside Hall = #
+
+Weapons inside Conservatory = #
+
+Weapons inside DiningRoom = Spanner #
+
+Weapons inside BilliardRoom = Revolver Rope #
+
+Weapons inside Study = Dagger #
+
+Weapons inside Kitchen = #
+
